@@ -1,5 +1,24 @@
 
-      .cls-1 {
+body {
+background-image: url("images/background-image.png");
+background-size: cover;
+height: 100vh;
+}
+      
+  #heart{
+    display: grid;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 60px;
+  }    
+
+  /* SVG styling */
+
+  svg{
+    fill:#ec1c24;
+  }
+      /* .cls-1 {
         fill: #050505;
       }
 
@@ -9,5 +28,56 @@
 
       .cls-3 {
         fill: #ec1c24;
-      }
+      } */
       
+.card{
+    width: 450px;
+    height: 500px;
+    background-color:#020202;
+    border-style:solid;
+    border-color: #ec1c24;
+    border-width: 3px;
+    position: relative;
+    top: 30%;
+   margin-left: 50%;
+}
+
+.name-container{
+    width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+h1 {
+    font-family: "dunbar-tall", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 200px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-shadow: 
+    -2px -2px 0 rgb(255, 0, 0),
+     2px -2px 0 rgb(255, 0, 0),
+    -2px  2px 0 rgb(255, 0, 0),
+     2px  2px 0 rgb(255, 0, 0),
+    -2px  0px 0 rgb(255, 0, 0),
+     2px  0px 0 rgb(255, 0, 0),
+     0px -2px 0 rgb(255, 0, 0),
+     0px  2px 0 rgb(255, 0, 0);
+
+}
+h2 {
+    font-family: "dunbar-tall", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 200px;
+margin-top: 3px;
+text-shadow: 
+-2px -2px 0 rgb(255, 0, 0),
+ 2px -2px 0 rgb(255, 0, 0),
+-2px  2px 0 rgb(255, 0, 0),
+ 2px  2px 0 rgb(255, 0, 0),
+-2px  0px 0 rgb(255, 0, 0),
+ 2px  0px 0 rgb(255, 0, 0),
+ 0px -2px 0 rgb(255, 0, 0),
+ 0px  2px 0 rgb(255, 0, 0);
+}
