@@ -15,9 +15,12 @@ height: 100vh;
 
   /* SVG styling */
 
-  svg{
+  /* svg{
     fill:#050505;
-  }
+  } */
+   .icon{
+    fill:red;
+   }
       .cls-1 {
         fill: #050505;
       }
@@ -41,11 +44,34 @@ height: 100vh;
     top: 30%;
    margin-left: 50%;
 }
+#instagram{
+    margin-left:10px;
+}
+#linkedin{
+
+    margin-right: 20px;
+    transform:scale(.75)
+}
 
 .name-container{
     width: 100%;
 margin: 0 auto;
 text-align: center;
+}
+
+.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width:100%;
+    grid-gap: 10px;
+    margin-left: 5%;
+    align-items: center;
+}
+svg{
+    width:150px;
+
+
 }
 h1 {
     font-family: "dunbar-tall", sans-serif;
@@ -80,4 +106,15 @@ text-shadow:
  2px  0px 0 rgb(255, 0, 0),
  0px -2px 0 rgb(255, 0, 0),
  0px  2px 0 rgb(255, 0, 0);
+}
+
+h3{
+    font-family: "dunbar-tall", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 4px;
+    color: #ec1c24;
+    margin-left: 8%;
+    margin-top: 6%;
 }
