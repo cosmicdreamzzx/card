@@ -89,14 +89,14 @@ h1 {
     margin-top: 3px;
     margin-bottom: 3px;
     text-shadow: 
-    -2px -2px 0 #ff0000,
-     2px -2px 0 #ff0000,
-    -2px  2px 0 #ff0000,
-     2px  2px 0 #ff0000,
-    -2px  0px 0 #ff0000,
-     2px  0px 0 #ff0000,
-     0px -2px 0 #ff0000,
-     0px  2px 0 #ff0000;
+    -2px -2px 0 #ec1c24,
+     2px -2px 0 #ec1c24,
+    -2px  2px 0 #ec1c24,
+     2px  2px 0 #ec1c24,
+    -2px  0px 0 #ec1c24,
+     2px  0px 0 #ec1c24,
+     0px -2px 0 #ec1c24,
+     0px  2px 0 #ec1c24;
 
 }
 h2 {
