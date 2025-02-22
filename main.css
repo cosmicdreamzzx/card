@@ -21,6 +21,10 @@ height: 100vh;
    .icon{
     fill:red;
    }
+
+   .icon:hover{
+    fill:rgb(255, 255, 255);
+   }
       .cls-1 {
         fill: #050505;
       }
@@ -32,7 +36,11 @@ height: 100vh;
       .cls-3 {
         fill: #ec1c24;
       }
-      
+      /* other styling */
+
+      hr{
+            border: 1.5px solid red;
+      }
 .card{
     width: 450px;
     height: 500px;
@@ -64,14 +72,14 @@ text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     width:100%;
-    grid-gap: 10px;
+    grid-gap: 1px;
     margin-left: 5%;
     align-items: center;
 }
 svg{
     width:150px;
 
-
+/* fonts styling */
 }
 h1 {
     font-family: "dunbar-tall", sans-serif;
@@ -118,3 +126,18 @@ h3{
     margin-left: 8%;
     margin-top: 6%;
 }
+/* mobile styling */
+@media (max-width: 900px) { 
+  
+    
+        h1 {
+            font-size: 120px; 
+        }
+    
+        h2 {
+            font-size: 120px; 
+        }
+    
+       
+    
+    }
