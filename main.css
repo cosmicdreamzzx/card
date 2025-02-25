@@ -139,7 +139,7 @@ h3{
     margin-top: 6%;
 }
 /* mobile styling */
-@media (max-width: 950px) and (min-width: 5px) { 
+@media (max-width: 950px) and (min-width: 100px) { 
   
     
         h1 {
@@ -155,12 +155,13 @@ h3{
         font-size: 200%;
        }
     .card{
-        width: 90%;
+        width: 30%;
      /* Adjust width for mobile */
-        max-width: 65%; /* Ensure it doesn't exceed the viewport */
+        max-width: 60px; /* Ensure it doesn't exceed the viewport */
          /* Remove minimum width for mobile */
-        min-width: 250px;
+        min-width: 325px;
          height: auto;
+         margin: 0 auto;
 
     }
     .icon-container{
