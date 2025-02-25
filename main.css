@@ -155,7 +155,7 @@ h3{
         max-width: 90%; /* Ensure it doesn't exceed the viewport */
         min-width: unset; /* Remove minimum width for mobile */
         height: auto;
-        margin:0 auto
+
     }
     .icon-container{
         display: grid;
