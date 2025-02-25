@@ -152,14 +152,14 @@ h3{
     
        h3 {
 
-        font-size: 250%;
+        font-size: 200%;
        }
     .card{
         width: 90%;
      /* Adjust width for mobile */
         max-width: 65%; /* Ensure it doesn't exceed the viewport */
          /* Remove minimum width for mobile */
-        min-width: unset;
+        min-width: 250px;
          height: auto;
 
     }
